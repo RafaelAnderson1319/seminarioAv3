@@ -1,5 +1,5 @@
-package com.unileste.projetofina.entidades;
+package com.mycompany.appprojetofinal.entidades;
 
-public class ContaPoupanca extends Conta{
+public class ContaPoupanca {
     
 }
