@@ -1,11 +1,9 @@
-package com.mycompany.appprojetofinal.entidades;
+package com.unileste.projetofinal.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.mycompany.appprojetofinal.utilitarios.SaldoInsuficienteException;
-
 import java.util.Objects;
+import com.unileste.projetofinal.utilitarios.SaldoInsuficienteException;
 
 public abstract class Conta {
 
@@ -27,6 +25,10 @@ public abstract class Conta {
         this.historicoTransacoes = new ArrayList<>();
 
         propietario.adcionarConta(this);
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
 
     public double getSaldo() {

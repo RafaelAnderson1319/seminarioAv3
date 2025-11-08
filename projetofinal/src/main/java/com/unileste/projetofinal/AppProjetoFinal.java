@@ -1,4 +1,4 @@
-package com.unileste.projetofina;
+package com.unileste.projetofinal;
 
 public class AppProjetoFinal {
 

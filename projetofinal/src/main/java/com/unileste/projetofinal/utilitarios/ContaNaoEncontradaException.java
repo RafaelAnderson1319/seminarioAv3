@@ -1,4 +1,4 @@
-package com.unileste.projetofina.utilitarios;
+package com.unileste.projetofinal.utilitarios;
 
 public class ContaNaoEncontradaException {
     

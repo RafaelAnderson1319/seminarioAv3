@@ -1,4 +1,4 @@
-package com.mycompany.appprojetofinal.entidades;
+package com.unileste.projetofinal.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
